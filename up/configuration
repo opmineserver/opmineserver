@@ -1,0 +1,158 @@
+{
+  "updaterate": 200000.0,
+  "chatlengthlimit": 0,
+  "components": [
+    {
+      "spawnlabel": "Spawn",
+      "spawnbedhidebydefault": true,
+      "spawnbedformat": "%name%'s bed",
+      "showworldborder": true,
+      "type": "markers",
+      "showlabel": false,
+      "offlineicon": "offlineuser",
+      "showspawnbeds": false,
+      "showofflineplayers": false,
+      "spawnbedicon": "bed",
+      "offlinehidebydefault": true,
+      "offlinelabel": "Offline",
+      "enablesigns": false,
+      "default-sign-set": "markers",
+      "spawnicon": "world",
+      "offlineminzoom": 0,
+      "spawnbedminzoom": 0,
+      "showspawn": true,
+      "spawnbedlabel": "Spawn Beds",
+      "maxofflinetime": 30
+    },
+    {
+      "allowurlname": false,
+      "type": "chat"
+    },
+    {
+      "focuschatballoons": false,
+      "type": "chatballoon"
+    },
+    {
+      "showplayerfaces": true,
+      "sendbutton": false,
+      "type": "chatbox",
+      "messagettl": 5
+    },
+    {
+      "hidebydefault": false,
+      "showplayerhealth": true,
+      "showplayerbody": false,
+      "showplayerfaces": true,
+      "label": "Players",
+      "type": "playermarkers",
+      "smallplayerfaces": false,
+      "layerprio": 0
+    },
+    {
+      "type": "link"
+    },
+    {
+      "showdigitalclock": true,
+      "showweather": true,
+      "type": "timeofdayclock"
+    },
+    {
+      "show-mcr": false,
+      "label": "Location",
+      "type": "coord",
+      "hidey": false
+    }
+  ],
+  "worlds": [
+    {
+      "sealevel": 63,
+      "protected": false,
+      "maps": [
+        {
+          "inclination": 90.0,
+          "nightandday": false,
+          "image-format": "png",
+          "shader": "stdtexture",
+          "compassview": "S",
+          "prefix": "flat",
+          "icon": null,
+          "scale": 4,
+          "azimuth": 270.0,
+          "type": "HDMapType",
+          "title": "Flat",
+          "lighting": "shadows",
+          "backgroundday": null,
+          "bigmap": true,
+          "maptoworld": [
+            0.25,
+            -1.5308084989341915E-17,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            -1.5308084989341915E-17,
+            -0.25,
+            0.0
+          ],
+          "protected": false,
+          "background": null,
+          "mapzoomout": 5,
+          "boostzoom": 0,
+          "name": "flat",
+          "backgroundnight": null,
+          "perspective": "iso_S_90_lowres",
+          "mapzoomin": 1,
+          "worldtomap": [
+            4.0,
+            0.0,
+            -2.4492935982947064E-16,
+            -2.4492935982947064E-16,
+            0.0,
+            -4.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "extrazoomout": 2,
+      "center": {
+        "x": 0.0,
+        "y": 127.0,
+        "z": 0.0
+      },
+      "name": "adventure",
+      "title": "Adventure",
+      "worldheight": 256
+    }
+  ],
+  "confighash": -146530792,
+  "spammessage": "You may only chat once every %interval% seconds.",
+  "defaultmap": "flat",
+  "msg-chatrequireslogin": "Chat Requires Login",
+  "msg-hiddennamejoin": "Player joined",
+  "title": "OPMineServer",
+  "grayplayerswhenhidden": true,
+  "quitmessage": "%playername% quit",
+  "defaultzoom": 0,
+  "allowwebchat": true,
+  "allowchat": true,
+  "sidebaropened": "false",
+  "webchat-interval": 5.0,
+  "msg-chatnotallowed": "You are not permitted to send chat messages",
+  "loggedin": false,
+  "coreversion": "3.0-beta-10-257",
+  "joinmessage": "%playername% joined",
+  "webchat-requires-login": false,
+  "showlayercontrol": "true",
+  "login-enabled": false,
+  "maxcount": 10,
+  "dynmapversion": "3.0-beta-10-257",
+  "msg-maptypes": "Map Types",
+  "cyrillic": false,
+  "msg-hiddennamequit": "Player quit",
+  "msg-players": "Players",
+  "webprefix": "[WEB] ",
+  "showplayerfacesinmenu": true,
+  "defaultworld": "adventure"
+}
